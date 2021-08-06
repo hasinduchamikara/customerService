@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+         
+         <servlet>
+         	<servlet-name>Payment</servlet-name>
+         	<servlet-class>com.payment.Payment</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>Payment</servlet-name>
+         	<url-pattern>/paymentInsert</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>updateUser</servlet-name>
+         	<servlet-class>com.payment.UpdatePayServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>updateUser</servlet-name>
+         	<url-pattern>/updateCus</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>deletePay</servlet-name>
+         	<servlet-class>com.payment.DeletePayServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>deletePay</servlet-name>
+         	<url-pattern>/deleteMethod</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+         	<servlet-name>payLog</servlet-name>
+         	<servlet-class>com.payment.PayLogServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>payLog</servlet-name>
+         	<url-pattern>/payProceed</url-pattern>
+         </servlet-mapping>
+         
+        
+         
+         
+</web-app>         

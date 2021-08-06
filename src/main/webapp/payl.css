@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+body{
+			font-family: Helvetica;
+		}
+		
+		form{
+			border: 3px solid #f1f1f1;
+		}
+		
+		input[type=text]{
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+		}
+		
+		.plog{
+			padding: 16px;
+			
+		}
+		
+		button:hover{
+			opacity: 0.8;
+		}
+		
+		button {
+  			background-color: #bd8fbf;
+  			color: white;
+ 			padding: 14px 20px;
+ 			margin: 8px 0;
+  			border: none;
+ 			cursor: pointer;
+  			width: 100%;
+		}
+		
+		h2#new {
+			text-align: center;
+			font-size: 35px;
+		}
+		
+		h3#new1 {
+			text-align: center;
+		}
+	
